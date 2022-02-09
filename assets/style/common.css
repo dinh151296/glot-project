@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0 auto;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1023px) {
     .container {
         max-width: 960px;
     }
@@ -236,6 +236,62 @@ header {
     width: fit-content;
     align-items: center;
     color: #131415;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-ct:hover {
+    opacity: 1;
+}
+
+.btn-ct::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 0%;
+    height: 0%;
+    background: rgba(255, 255, 255, 0.41);
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.btn-ct:hover::after {
+    -webkit-animation: circle .75s;
+    animation: circle .75s;
+}
+
+@-webkit-keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+
+@keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
 }
 
 .btn-img-right img {
@@ -450,6 +506,17 @@ footer {
 }
 /*====end footer ====*/
 
-@media only screen and (max-width:767px) {
+/* responsive */
+@media only screen and (max-width:1050px) {
     
 }
+
+@media only screen and (max-width:767px) {
+    .header-top {
+        display: none;
+    }
+    .header__menu {
+        display: none;
+    }
+}
+/* responsive */
