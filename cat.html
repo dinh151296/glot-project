@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Danh mục</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- bootstrap -->
+
+    <!-- slick-carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- slick-carousel -->
+
+    <link rel="stylesheet" href="assets/style/common.css" type="text/css">
+    <link rel="stylesheet" href="assets/style/cat.css" type="text/css">
+
+</head>
+
+<body class="body-bg">
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top__inner d-flex align-items-center justify-content-between">
+                    <div class="header__contact d-flex align-items-center">
+                        <a href="" class="mail">
+                            Email: glotvn@gmail.com
+                        </a>
+                        <a href="tel:1900.6768" class="phone">
+                            Hotline hỗ trợ khách hàng: 1900.6768
+                        </a>
+                    </div>
+                    <ul class="header__menu-contact d-flex align-items-center">
+                        <li>
+                            <a href="">Về chúng tôi</a>
+                        </li>
+                        <li>
+                            <a href="">Liên hệ</a>
+                        </li>
+                        <li>
+                            <a href="">Hỏi đáp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-under">
+            <div class="container">
+                <div class="wrap-header-main d-flex">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="./assets/image/LOGO.png" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap-header__menu d-flex align-items-center">
+                        <ul class="header__menu d-flex align-items-center">
+                            <li>
+                                <a href="">
+                                    Trang chủ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Về chúng tôi
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Sản phẩm đầu tư
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Đội ngũ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Tin tức
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Liên hệ
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="header__login d-flex align-items-center">
+                            <a href="" class="login">Đăng nhập</a>
+                            <a href="" class="register btn-ct">Đăng ký</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="eyecatch-page">
+            <div class="container eyecatch-wrap-content">
+                <h1 class="title-font-montserrat">BẤT ĐỘNG SẢN</h1>
+                <p>Bao gồm 63 tỉnh thành trên cả nước, hơn 423 dự án trên toàn quốc.</p>
+            </div>
+        </section>
+
+        <div class="wrap-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="wrap-form-search">
+                            <form action="">
+                                <div class="form-input ">
+                                    <input type="text" class="form-control" placeholder="Nhập  địa điểm, khu dân cư, toà nhà...">
+                                    <button type="submit" class="btn-ct">
+                                        Tìm kiếm
+                                    </button>
+                                </div>
+                                <div class="form-filter form-row d-flex align-items-center">
+                                    <div class="col-auto form-filter__item">
+                                        <label class="mr-sm-2" for="">Chọn địa điểm</label>
+                                        <select class="custom-select" id="">
+                                            <option selected>Địa điểm</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-auto form-filter__item">
+                                        <label class="mr-sm-2" for="">Chọn loại hình BĐS</label>
+                                        <select class="custom-select" id="">
+                                            <option selected>Loại hình BĐS</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-auto form-filter__item">
+                                        <label class="mr-sm-2" for="">Chọn khoảng giá</label>
+                                        <select class="custom-select" id="">
+                                            <option selected>Khoảng giá</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-auto form-filter__item">
+                                        <label class="mr-sm-2" for="">Chọn diện tích</label>
+                                        <select class="custom-select" id="">
+                                            <option selected>Diện tích</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-auto form-filter__item">
+                                        <label class="mr-sm-2" for="">Dự án</label>
+                                        <select class="custom-select" id="">
+                                            <option selected>Chọn dự án</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-auto form-filter__button d-flex align-items-center">
+                                        <button class="btn btn-filter-more">Lọc thêm</button>
+                                        <div class="refresh-filter">
+                                            <img src="./assets/image/refresh_02.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>          
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="wrap-filter d-flex align-items-center justify-content-between">
+                            <p class="result-number">
+                                Kết quả phù hợp: <span>178/345</span>
+                            </p>
+                            <div class="filter-sort d-flex align-items-center">
+                                <p>Sắp xếp theo:</p>
+                                <select class="form-control custom-select" id="">
+                                    <option>Cũ nhất</option>
+                                    <option>Thông thường</option>
+                                    <option>Tin mới nhất</option>
+                                    <option>Giá từ thấp tới cao</option>
+                                    <option>Giá từ cao tới thấp</option>
+                                    <option>Diện tích nhỏ đến lớn</option>
+                                    <option>Diện tích lớn đến nhỏ</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row property-list">
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="property-item">
+                            <div class="thumb property--new">
+                                <a href="">
+                                    <img src="./assets/image/land01.jpg" alt="">
+                                </a>
+                            </div>
+                            <ul class="property-item__info d-flex align-items-center">
+                                <li class="info__item">
+                                    <img src="./assets/image/info01.svg" alt="">
+                                    <span>129.7 m</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info02.svg" alt="">
+                                    <span>3 PN</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info03.svg" alt="">
+                                    <span>2 WC</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info04.svg" alt="">
+                                    <span>Tây Nam</span>
+                                </li>
+                            </ul>
+                            <div class="wrap-desc">
+                                <h3 class="title mb-2">
+                                    <a href="">
+                                        Biệt thự đơn lập đường V3 khu Vinhomes Grand Park - VNH03
+                                    </a>
+                                </h3>
+                                <div class="location d-flex align-items-center">
+                                    <img src="./assets/image/location-info.svg" alt="">
+                                    Nguyễn Xiển, P. Long Bình, Q.9, TP. Hồ Chí Minh
+                                </div>
+                                <ul class="desc__number d-flex justify-content-between align-items-center flex-wrap mt-3">
+                                    <li>
+                                        <p>Lãi ròng</p>
+                                        <span>3.01%</span>
+                                    </li>
+                                    <li>
+                                        <p>Tốc độ tăng trưởng giá</p>
+                                        <span>4.87%</span>
+                                    </li>
+                                    <li>
+                                        <p>Giá khởi điểm BĐS</p>
+                                        <span>5.31 Tỷ </span>
+                                    </li>
+                                    <li>
+                                        <p>Số nhà đầu tư</p>
+                                        <span>657</span>
+                                    </li>
+                                    <li>
+                                        <p>Số nhà đầu tư</p>
+                                        <span>657</span>
+                                        <small>(+3.09% so với ban đầu)</small>
+                                    </li>
+                                </ul>
+                                <div class="desc__link d-flex align-items-center justify-content-between">
+                                    <a href="" class="detail">Chi tiết</a>
+                                    <a href="" class="invest">Đầu tư ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="property-item">
+                            <div class="thumb">
+                                <a href="">
+                                    <img src="./assets/image/land02.jpg" alt="">
+                                </a>
+                            </div>
+                            <ul class="property-item__info d-flex align-items-center">
+                                <li class="info__item">
+                                    <img src="./assets/image/info01.svg" alt="">
+                                    <span>129.7 m</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info02.svg" alt="">
+                                    <span>3 PN</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info03.svg" alt="">
+                                    <span>2 WC</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info04.svg" alt="">
+                                    <span>Tây Nam</span>
+                                </li>
+                            </ul>
+                            <div class="wrap-desc">
+                                <h3 class="title mb-2">
+                                    <a href="">
+                                        Biệt thự đơn lập đường V3 khu Vinhomes Grand Park - VNH03
+                                    </a>
+                                </h3>
+                                <div class="location d-flex align-items-center">
+                                    <img src="./assets/image/location-info.svg" alt="">
+                                    Nguyễn Xiển, P. Long Bình, Q.9, TP. Hồ Chí Minh
+                                </div>
+                                <ul class="desc__number d-flex justify-content-between align-items-center flex-wrap mt-3">
+                                    <li>
+                                        <p>Lãi ròng</p>
+                                        <span>3.01%</span>
+                                    </li>
+                                    <li>
+                                        <p>Tốc độ tăng trưởng giá</p>
+                                        <span>4.87%</span>
+                                    </li>
+                                    <li>
+                                        <p>Giá khởi điểm BĐS</p>
+                                        <span>5.31 Tỷ </span>
+                                    </li>
+                                    <li>
+                                        <p>Số nhà đầu tư</p>
+                                        <span>657</span>
+                                    </li>
+                                    <li>
+                                        <p>Số nhà đầu tư</p>
+                                        <span>657</span>
+                                        <small>(+3.09% so với ban đầu)</small>
+                                    </li>
+                                </ul>
+                                <div class="desc__link d-flex align-items-center justify-content-between">
+                                    <a href="" class="detail">Chi tiết</a>
+                                    <a href="" class="invest">Đầu tư ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="property-item">
+                            <div class="thumb">
+                                <a href="">
+                                    <img src="./assets/image/land03.jpg" alt="">
+                                </a>
+                            </div>
+                            <ul class="property-item__info d-flex align-items-center">
+                                <li class="info__item">
+                                    <img src="./assets/image/info01.svg" alt="">
+                                    <span>129.7 m</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info02.svg" alt="">
+                                    <span>3 PN</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info03.svg" alt="">
+                                    <span>2 WC</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info04.svg" alt="">
+                                    <span>Tây Nam</span>
+                                </li>
+                            </ul>
+                            <div class="wrap-desc">
+                                <h3 class="title mb-2">
+                                    <a href="">
+                                        Biệt thự đơn lập đường V3 khu Vinhomes Grand Park - VNH03
+                                    </a>
+                                </h3>
+                                <div class="location d-flex align-items-center">
+                                    <img src="./assets/image/location-info.svg" alt="">
+                                    Nguyễn Xiển, P. Long Bình, Q.9, TP. Hồ Chí Minh
+                                </div>
+                                <ul class="desc__number d-flex justify-content-between align-items-center flex-wrap mt-3">
+                                    <li>
+                                        <p>Lãi ròng</p>
+                                        <span>3.01%</span>
+                                    </li>
+                                    <li>
+                                        <p>Tốc độ tăng trưởng giá</p>
+                                        <span>4.87%</span>
+                                    </li>
+                                    <li>
+                                        <p>Giá khởi điểm BĐS</p>
+                                        <span>5.31 Tỷ </span>
+                                    </li>
+                                    <li>
+                                        <p>Số nhà đầu tư</p>
+                                        <span>657</span>
+                                    </li>
+                                    <li>
+                                        <p>Số nhà đầu tư</p>
+                                        <span>657</span>
+                                        <small>(+3.09% so với ban đầu)</small>
+                                    </li>
+                                </ul>
+                                <div class="desc__link d-flex align-items-center justify-content-between">
+                                    <a href="" class="detail">Chi tiết</a>
+                                    <a href="" class="invest">Đầu tư ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="property-item">
+                            <div class="thumb">
+                                <a href="">
+                                    <img src="./assets/image/land04.jpg" alt="">
+                                </a>
+                            </div>
+                            <ul class="property-item__info d-flex align-items-center">
+                                <li class="info__item">
+                                    <img src="./assets/image/info01.svg" alt="">
+                                    <span>129.7 m</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info02.svg" alt="">
+                                    <span>3 PN</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info03.svg" alt="">
+                                    <span>2 WC</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info04.svg" alt="">
+                                    <span>Tây Nam</span>
+                                </li>
+                            </ul>
+                            <div class="wrap-desc">
+                                <h3 class="title mb-2">
+                                    <a href="">
+                                        Biệt thự đơn lập đường V3 khu Vinhomes Grand Park - VNH03
+                                    </a>
+                                </h3>
+                                <div class="location d-flex align-items-center">
+                                    <img src="./assets/image/location-info.svg" alt="">
+                                    Nguyễn Xiển, P. Long Bình, Q.9, TP. Hồ Chí Minh
+                                </div>
+                                <ul class="desc__number d-flex justify-content-between align-items-center flex-wrap mt-3">
+                                    <li>
+                                        <p>Lãi ròng</p>
+                                        <span>3.01%</span>
+                                    </li>
+                                    <li>
+                                        <p>Tốc độ tăng trưởng giá</p>
+                                        <span>4.87%</span>
+                                    </li>
+                                    <li>
+                                        <p>Giá khởi điểm BĐS</p>
+                                        <span>5.31 Tỷ </span>
+                                    </li>
+                                    <li>
+                                        <p>Số nhà đầu tư</p>
+                                        <span>657</span>
+                                    </li>
+                                    <li>
+                                        <p>Số nhà đầu tư</p>
+                                        <span>657</span>
+                                        <small>(+3.09% so với ban đầu)</small>
+                                    </li>
+                                </ul>
+                                <div class="desc__link d-flex align-items-center justify-content-between">
+                                    <a href="" class="detail">Chi tiết</a>
+                                    <a href="" class="invest">Đầu tư ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="property-item">
+                            <div class="thumb">
+                                <a href="">
+                                    <img src="./assets/image/land05.jpg" alt="">
+                                </a>
+                            </div>
+                            <ul class="property-item__info d-flex align-items-center">
+                                <li class="info__item">
+                                    <img src="./assets/image/info01.svg" alt="">
+                                    <span>129.7 m</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info02.svg" alt="">
+                                    <span>3 PN</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info03.svg" alt="">
+                                    <span>2 WC</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info04.svg" alt="">
+                                    <span>Tây Nam</span>
+                                </li>
+                            </ul>
+                            <div class="wrap-desc">
+                                <h3 class="title mb-2">
+                                    <a href="">
+                                        Biệt thự đơn lập đường V3 khu Vinhomes Grand Park - VNH03
+                                    </a>
+                                </h3>
+                                <div class="location d-flex align-items-center">
+                                    <img src="./assets/image/location-info.svg" alt="">
+                                    Nguyễn Xiển, P. Long Bình, Q.9, TP. Hồ Chí Minh
+                                </div>
+                                <ul class="desc__number d-flex justify-content-between align-items-center flex-wrap mt-3">
+                                    <li>
+                                        <p>Lãi ròng</p>
+                                        <span>3.01%</span>
+                                    </li>
+                                    <li>
+                                        <p>Tốc độ tăng trưởng giá</p>
+                                        <span>4.87%</span>
+                                    </li>
+                                    <li>
+                                        <p>Giá khởi điểm BĐS</p>
+                                        <span>5.31 Tỷ </span>
+                                    </li>
+                                    <li>
+                                        <p>Số nhà đầu tư</p>
+                                        <span>657</span>
+                                    </li>
+                                    <li>
+                                        <p>Số nhà đầu tư</p>
+                                        <span>657</span>
+                                        <small>(+3.09% so với ban đầu)</small>
+                                    </li>
+                                </ul>
+                                <div class="desc__link d-flex align-items-center justify-content-between">
+                                    <a href="" class="detail">Chi tiết</a>
+                                    <a href="" class="invest">Đầu tư ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="property-item">
+                            <div class="thumb">
+                                <a href="">
+                                    <img src="./assets/image/land06.jpg" alt="">
+                                </a>
+                            </div>
+                            <ul class="property-item__info d-flex align-items-center">
+                                <li class="info__item">
+                                    <img src="./assets/image/info01.svg" alt="">
+                                    <span>129.7 m</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info02.svg" alt="">
+                                    <span>3 PN</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info03.svg" alt="">
+                                    <span>2 WC</span>
+                                </li>
+                                <li class="info__item">
+                                    <img src="./assets/image/info04.svg" alt="">
+                                    <span>Tây Nam</span>
+                                </li>
+                            </ul>
+                            <div class="wrap-desc">
+                                <h3 class="title mb-2">
+                                    <a href="">
+                                        Biệt thự đơn lập đường V3 khu Vinhomes Grand Park - VNH03
+                                    </a>
+                                </h3>
+                                <div class="location d-flex align-items-center">
+                                    <img src="./assets/image/location-info.svg" alt="">
+                                    Nguyễn Xiển, P. Long Bình, Q.9, TP. Hồ Chí Minh
+                                </div>
+                                <ul class="desc__number d-flex justify-content-between align-items-center flex-wrap mt-3">
+                                    <li>
+                                        <p>Lãi ròng</p>
+                                        <span>3.01%</span>
+                                    </li>
+                                    <li>
+                                        <p>Tốc độ tăng trưởng giá</p>
+                                        <span>4.87%</span>
+                                    </li>
+                                    <li>
+                                        <p>Giá khởi điểm BĐS</p>
+                                        <span>5.31 Tỷ </span>
+                                    </li>
+                                    <li>
+                                        <p>Số nhà đầu tư</p>
+                                        <span>657</span>
+                                    </li>
+                                    <li>
+                                        <p>Số nhà đầu tư</p>
+                                        <span>657</span>
+                                        <small>(+3.09% so với ban đầu)</small>
+                                    </li>
+                                </ul>
+                                <div class="desc__link d-flex align-items-center justify-content-between">
+                                    <a href="" class="detail">Chi tiết</a>
+                                    <a href="" class="invest">Đầu tư ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="pagination">
+                            <a href="">
+                                <img src="./assets/image/left-pagination.svg" alt="">
+                            </a>
+                            <span class="active">1</span>
+                            <span class="">2</span>
+                            <span class="">3</span>
+                            <span class="">...</span>
+                            <span class="">10</span>
+                            <a href="">
+                                <img src="./assets/image/right-pagination.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="info-more">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-md-3">
+                            <div class="info-more__item">
+                                <div class="img">
+                                    <img src="./assets/image/info-more01.svg" alt="">
+                                </div>
+                                <h5>Mã hoá an toàn</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="info-more__item">
+                                <div class="img">
+                                    <img src="./assets/image/info-more02.svg" alt="">
+                                </div>
+                                <h5>Minh bạch</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="info-more__item">
+                                <div class="img">
+                                    <img src="./assets/image/info-more03.svg" alt="">
+                                </div>
+                                <h5>Thanh toán an toàn</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="info-more__item">
+                                <div class="img">
+                                    <img src="./assets/image/info-more04.svg" alt="">
+                                </div>
+                                <h5>Đa dạng hoá</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-inner d-flex align-items-start">
+                <div class="footer__contact">
+                    <div class="footer__logo">
+                        <a href="">
+                            <img src="./assets/image/LOGO.png" alt="">
+                        </a>
+                        <h2>công ty cổ phần đầu tư & phát triển glot</h2>
+                    </div>
+                    <ul class="footer__contact-inner">
+                        <li>
+                            <img src="./assets/image/location-white.svg" alt="">
+                            289A, Tầng 1, Tòa E, Chung cư Vinaconex 1 Khuất Duy Tiến,
+                            Thanh Xuân, Hà Nội.
+                        </li>
+                        <li>
+                            <img src="./assets/image/location-white.svg" alt="">
+                            Tòa nhà Republic Plaza, số 18E, đường Cộng Hòa,
+                            quận Tân Bình, TP. Hồ Chí Minh
+                        </li>
+                        <li>
+                            <img src="./assets/image/phone.svg" alt="">
+                            <a href="tel:1900.67.50">1900.67.50</a>
+                        </li>
+                        <li>
+                            <img src="./assets/image/support.svg" alt="">
+                            <a href="">Supportglot@com.vn</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-social__list d-flex align-items-center pt-2">
+                        <li>
+                            <a href="">
+                                <img src="./assets/image/insta-ft.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/image/fb-ft.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/image/youtube-ft.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/image/tw-ft.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="wrap-footer__menu d-flex">
+                    <div class="footer__block">
+                        <h3>Đầu tư</h3>
+                        <ul class="footer__menu">
+                            <li>
+                                <a href="">Quy trình</a>
+                            </li>
+                            <li>
+                                <a href="">Đầu tư thông minh</a>
+                            </li>
+                            <li>
+                                <a href="">Phí dịch vụ</a>
+                            </li>
+                            <li>
+                                <a href="">Công cụ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <h3>Về chúng tôi</h3>
+                        <ul class="footer__menu">
+                            <li>
+                                <a href="">Team GLOT</a>
+                            </li>
+                            <li>
+                                <a href="">Tin tức</a>
+                            </li>
+                            <li>
+                                <a href="">Báo chí</a>
+                            </li>
+                            <li>
+                                <a href="">Sự kiện</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <h3>Điều khoản</h3>
+                        <ul class="footer__menu">
+                            <li>
+                                <a href="">Chính sách chung</a>
+                            </li>
+                            <li>
+                                <a href="">Chính sách bảo mật</a>
+                            </li>
+                            <li>
+                                <a href="">Khiếu nại</a>
+                            </li>
+                            <li>
+                                <a href="">Dịch vụ cho vay</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <h3>Tài khoản của tôi</h3>
+                        <ul class="footer__menu">
+                            <li>
+                                <a href="">Đăng ký</a>
+                            </li>
+                            <li>
+                                <a href="">Đăng nhập</a>
+                            </li>
+                            <li>
+                                <a href="">Quên mật khẩu</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <h3>Hỗ trợ</h3>
+                        <ul class="footer__menu">
+                            <li>
+                                <a href="">Trung tâm trợ giúp</a>
+                            </li>
+                            <li>
+                                <a href="">Liên hệ chúng tôi</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footer__fanpage-fb">
+                    <div class="footer__block">
+                        <h3>theo dõi chúng tôi</h3>
+                    </div>
+                    <img src="./assets/image/fb-footer.jpg" alt="">
+                </div>
+            </div>
+            <div class="copyright d-flex align-items-center justify-content-between flex-wrap">
+                <p>Copyright © 2021 - Đất Vàng Việt Nam. All Rights Reserved.</p>
+                <a href="">Hướng dẫn sử dụng - Tư vấn</a>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./assets/js/common.js"></script>
+</body>
+
+</html>
