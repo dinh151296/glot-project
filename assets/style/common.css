@@ -623,12 +623,12 @@ footer {
     -webkit-line-clamp: 2;
 }
 
-.wrap-desc .location img {
+.location img {
     max-width: 9px;
     margin-right: 3px;
 }
 
-.wrap-desc .location  {
+.location  {
     font-size: 12px;
     color:#131415;
 }
@@ -709,6 +709,29 @@ ul.desc__number li span {
     margin-left: 10px;
 }
 /* end property */
+
+
+/* breadcrumb */
+.breadcrumb-link {
+    width: 100%;
+    padding: 35px 0px;
+}
+
+.breadcrumb-link a img {
+    max-width: 17px;
+    margin-bottom: 3px;
+}
+
+.breadcrumb-link span {
+    padding:  0 3px;
+    font-size: 14px;
+    color: #303030;
+}
+
+.breadcrumb-link span img {
+    max-width: 15px;
+}
+/* breadcrumb */
 
 /* responsive */
 @media only screen and (max-width:1050px) {
