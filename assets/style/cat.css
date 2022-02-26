@@ -204,45 +204,6 @@ section.eyecatch-page {
     width: 13px;
 }
 
-/* pagination */
-.pagination {
-    padding: 15px 0px 35px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pagination span {
-    width: 24px;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #2C2C2C;
-    font-size: 14px;
-
-    transition: 0.2s;
-    margin: 0 4px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.pagination span.active {
-    background-color: var(--cl-highlight);
-    color: #fff;
-}
-
-.pagination a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: 20px;
-    margin: 0 2px;
-}
-/* pagination */
-
 section.info-more {
     padding: 40px 0px 10px;
     background-color: #fff;

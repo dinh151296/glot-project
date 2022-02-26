@@ -1,0 +1,132 @@
+/* page new style */
+.breadcrumb-link {
+    padding: 20px 0px;
+}
+
+.left__block {
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    padding: 26px 24px;
+    margin-bottom: 20px;
+}
+
+.left__block h3 {
+    font-size: 26px;
+    color:#131415;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.cat-collapse {
+    width: 100%;
+}
+
+.cat-collapse__name {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    color:#262626;
+    padding: 8px 0px;
+    cursor: pointer;
+}
+
+.cat-collapse__name:focus {
+    border: 0;
+    outline: 0;
+}
+
+.cat-collapse__name img {
+    width: 13px;
+}
+
+.menu-collapse {
+    padding: 2px 16px;
+}
+
+.menu-collapse li {
+    padding: 6px 0px;
+}
+
+.menu-collapse li a {
+    font-size: 16px;
+    color:#4D4D4D;
+}
+
+.hot-new li {
+    padding: 20px 0px;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.hot-new li:last-child {
+    padding-bottom: 0px;
+    border-bottom: 0;
+}
+
+.hot-new li a img{
+    max-width: 140px;
+    border-radius: 10px;
+}
+
+.hot-new li a p {
+    flex: 1;
+    padding-left: 12px;
+    font-size: 16px;
+    color: #2C2C2C;
+    font-weight: 500;
+}
+
+.buy-sell__item {
+    margin-bottom: 40px;
+}
+
+.wrap-left {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-bottom: 40px;
+}
+
+/*======== new detail style ========*/
+section.new-related {
+    padding-bottom: 20px;
+} 
+
+.wrap-new-detail h2 {
+    font-size: 34px;
+    color:#2C2C2C;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.wrap-new-detail {
+    margin-bottom: 40px;
+}
+
+.wrap-new-detail p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #2C2C2C;
+    padding: 1rem 0px;
+}
+
+.wrap-new-detail p.desc {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+figure {
+    margin: 10px 0px;
+}
+
+section.new-related {
+    background-color: #F5F5F5;
+}
+
+.wrap-new-related {
+    margin-top: 45px;
+}
+/*======== end new detail style ========*/
