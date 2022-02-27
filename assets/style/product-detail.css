@@ -29,6 +29,7 @@
 
 .slide__option {
     position: relative;
+    overflow: hidden;
 }
 
 .slide__option img {
@@ -58,6 +59,7 @@
 .aside-wrap {
     padding: 22px 20px;
     border-radius: 10px;
+    margin-bottom: 40px;
 }
 
 .aside-wrap h2 {
@@ -105,6 +107,7 @@
 .product__info-number li:nth-child(1),
 .product__info-number li:nth-child(3) {
     width: 45%;
+    padding-right: 4px;
 }
 
 .product__info-number li:nth-child(2),
@@ -120,7 +123,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 9px;
 }
 
 .product__info-number li .img img {
@@ -132,9 +134,9 @@
 
 .product__info-number li p {
     flex: 1;
+    padding-left: 9px;
     font-size: 12px;
     color: #4A4A4A;
-    white-space: nowrap;
 }
 
 .product__info-number li p span {
@@ -152,6 +154,18 @@ a.link-to-invest {
 .tab-list {
     padding: 21px 0px;
     overflow-x: auto;
+}
+
+.tab-list::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+    background-color: #f0f0f0;
+    border-radius: 6px;
+}
+
+.tab-list::-webkit-scrollbar-thumb {
+    background-color: #e0e0e0;
+    border-radius: 6px;
 }
 
 .tab__link {
@@ -324,8 +338,11 @@ a.link-to-invest {
 .desc-button  {
     margin-top: 12px;
     width: 100%;
-    font-size: 16px;
+    font-size: 16px !important;
     min-height: 55px;
+    display: flex !important; 
+    text-decoration: none !important;
+    text-align: center !important;
 }
 
 .desc-button.btn-ct-bg {
@@ -500,4 +517,58 @@ a.link-to-invest {
 
 .desc__row-ct-pd {
     padding: 20px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .breadcrumb-link {
+        padding: 20px 0px;
+    }
+    .thumb__option {
+        left: 16px;
+        right: 16px;
+        bottom: 10px;
+    }
+    .thumb__option button {
+        margin: 0 10px;
+    }
+    .tab-list {
+        padding: 1rem 0px;
+    }
+    .tab__link {
+        min-width: 240px;
+        max-width: 240px;
+        padding: 14px;
+    }
+    .tab__link img {
+        max-width: 32px;
+    }
+    .aside-wrap {
+        padding: 16px 16px;
+    }
+    .block-content__desc {
+        padding: 0px 16px;
+    }
+    .product__info-number li {
+        margin-bottom: 20px;
+    }
+    .wrap__inner-content {
+        flex-wrap: wrap;
+        padding: 16px;
+    }
+    .inner-content__item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .inner-content__item:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .product__info-number li {
+        width: 100% !important;
+    }
+    .title__text {
+        padding-bottom: 10px;
+    }
 }
