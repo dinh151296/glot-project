@@ -1034,7 +1034,7 @@ a.to-blog-detail:hover img {
         width: 90px;
     }
     .section-title h2 {
-        font-size: 28px;
+        font-size: 24px;
     }
     .section-title p {
         font-size: 16px;
@@ -1064,6 +1064,10 @@ a.to-blog-detail:hover img {
     }
     ul.desc__number li  {
         min-height: unset;
+    }
+    ul.more-info li {
+        padding-right: 8px;
+        margin-right: 8px;
     }
 }
 

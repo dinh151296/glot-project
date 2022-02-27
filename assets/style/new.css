@@ -130,3 +130,35 @@ section.new-related {
     margin-top: 45px;
 }
 /*======== end new detail style ========*/
+
+@media only screen and (max-width: 767px) {
+    .wrap-left {
+        display: none;
+    }
+    .breadcrumb-link {
+        padding: 14px 0px;
+    }
+    .left__block {
+        padding: 20px;
+    }
+    .left__block h3 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .cat-collapse__name {
+        font-size: 16px;
+    }
+    .buy-sell__item {
+        margin-bottom: 30px;
+    }
+    .pagination {
+        padding-top: 0px;
+    }
+    .wrap-new-detail h2 {
+        font-size: 26px;
+        margin-top: 6px;
+    }
+    .wrap-new-related {
+        margin-top: 30px;
+    }
+}
