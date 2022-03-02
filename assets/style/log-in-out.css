@@ -1,0 +1,221 @@
+/* page -- login logout register style  */
+
+.wrap__login {
+    background-image: url(../image/hero-vietnam.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+    min-height: 700px;
+    height: 100vh;
+}
+
+.wrap__login::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    background-color:  rgba(0, 0, 0, 0.65);
+    z-index: 1;
+}
+
+.wrap-login__box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 752px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 2;
+    transition: 0.2s;
+}
+
+.box-header {
+    position: relative;
+}
+
+.box-header::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2.9px;
+    background-color: #A3A8AF;
+    left: 0;
+    bottom: 0;
+}
+
+.close__popup-login {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 14px;
+    max-width: 48px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.close__popup-login:hover {
+    opacity: 0.8;
+}
+
+.close__popup-login:focus {
+    outline: 0;
+}
+
+.box-header span {
+    width: 50%;
+    text-align: center;
+    padding: 28px 5px 26px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #A3A8AF;
+    position: relative;
+    cursor: pointer;
+}
+
+.box-header span.active {
+    color: var(--cl-highlight);
+    cursor: default;
+}
+
+.box-header span.active::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2.9px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--cl-highlight);
+    z-index: 2;
+}
+
+.box-body {
+    padding: 50px 30px 40px;
+    text-align: center;
+    color:#131415;
+}
+
+.box-body h3 {
+    font-size: 36px;
+    color: #131415;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.box-body p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 18px;   
+}
+
+form.form-login {
+    max-width: 526px;
+    margin: 0 auto;
+}
+
+.form-group label {
+    font-size: 16px;
+}
+
+.form-group label span {
+    color: red;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #E3E3E3;
+    height: 48px;
+}
+
+.form-check-input:checked~.custom-control-label::before {
+    background-color: var(--cl-highlight);
+}
+
+.custom-control-label::after {
+    top: 6px;
+    left: 2px;
+    background-image: url(../image/check-white.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 0px;
+    transition: 0.2s;
+}
+
+.form-check-input:checked~.custom-control-label::after{
+    background-size: 14px;
+}
+
+.custom-control-label::before {
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--cl-highlight);
+}
+
+a.forgot-pass {
+    color: var(--cl-highlight);
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.form-check-label {
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    margin: 30px auto;
+    border: 0;
+    outline: 0;
+    min-width: 235px;
+
+    height: 50px;
+}
+
+.wrap-login__fb-gg span {
+    font-size: 16px;
+    padding: 0 8px;
+    background-color: #fff;
+}
+
+.fb-gg__tile {
+    position: relative;
+}
+
+.fb-gg__tile ::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #D6DAE2;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.login__fb-gg {
+    margin-top: 28px;
+}
+
+.login__fb-gg img {
+    max-width: 150px;
+    margin: 0 10px;
+}
+
+/* .custom-control-input:checked~.custom-control-label::before{
+    background-color:#fff;
+} */
+
