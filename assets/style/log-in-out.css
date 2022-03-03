@@ -7,8 +7,12 @@
     background-repeat: no-repeat;
 
     position: relative;
-    min-height: 700px;
-    height: 100vh;
+    height: 1080px;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .wrap__login::after {
@@ -24,10 +28,7 @@
 }
 
 .wrap-login__box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     width: 752px;
     height: auto;
     border-radius: 10px;
@@ -219,3 +220,32 @@ button[type="submit"] {
     background-color:#fff;
 } */
 
+.wrap-from__check {
+    margin-bottom: 35px;
+}
+
+.wrap-from__check span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #131415;
+    padding-right: 22px;
+}
+
+.wrap-from__check label {
+    font-size: 16px;
+    color: #3C3C3B;
+}
+
+.form-check-register {
+    margin-right: 38px;
+}
+
+.form-row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 15px;
+    padding-left: 15px;
+}
