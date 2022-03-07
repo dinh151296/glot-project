@@ -256,6 +256,24 @@ header {
     border-radius: 10px;
 }
 
+.user__img {
+    width: 27px;
+}
+
+.user__name span {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--cl-highlight);
+    white-space: nowrap;
+    padding-left: 12px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.user__name  img {
+    width: 9px;
+}
+
 .btn-ct {
     font-size: 15px;
     font-weight: 500;
@@ -1068,6 +1086,9 @@ a.to-blog-detail:hover img {
     ul.more-info li {
         padding-right: 8px;
         margin-right: 8px;
+    }
+    .header__login::before {
+        content: none;
     }
 }
 
