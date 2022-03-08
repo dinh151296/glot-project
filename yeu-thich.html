@@ -5,13 +5,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thông tin</title>
+    <title>Tài sản yêu thích</title>
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- bootstrap -->
 
- 
+  
 
     <link rel="stylesheet" href="assets/style/common.css" type="text/css">
     <link rel="stylesheet" href="assets/style/user-admin.css" type="text/css">
@@ -123,19 +123,19 @@
                     <div class="admin-aside bg-white">
                         <ul class="menu-admin">
                             <li>
-                                <a href="" class="active d-flex align-items-center">
+                                <a href="" class="d-flex align-items-center">
                                     <img src="./assets/image/person-outline.svg" alt="">
                                     <span>Thông tin chung</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="" class="d-flex align-items-center">
+                                <a href="" class=" d-flex align-items-center">
                                     <img src="./assets/image/lock-closed-outline.svg" alt="">
                                     <span>Đổi mật khẩu</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="" class="d-flex align-items-center">
+                                <a href="" class="active d-flex align-items-center">
                                     <img src="./assets/image/heart-outline.svg" alt="">
                                     <span>Tài sản yêu thích</span>
                                 </a>
@@ -147,7 +147,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="" class="d-flex align-items-center">
+                                <a href="" class=" d-flex align-items-center">
                                     <img src="./assets/image/notifications-outline.svg" alt="">
                                     <span>Thông báo</span>
                                 </a>
@@ -163,93 +163,9 @@
                 </div>
                 <div class="col-12 col-md-12 col-lg-9">
                     <div class="block__content-admin bg-white">
-                        <div class="wrap-user__avatar d-flex align-items-center">
-                            <div class="user__avatar-img">
-                                <img src="./assets/image/user-thumb.png" alt="">
-                            </div>
-                            <div class="user__avatar-upload">
-                                <button class="button-upload-img btn-ct d-flex align-items-center">
-                                    <img src="./assets/image/cloud-upload-outline.svg" alt="">
-                                    <span>Tải lên</span>
-                                </button>
-                                <p>Cho phép tải ảnh JPG, GiF hoặc PNG, dung lượng tối đa 800kB</p>
-                            </div>
+                        <div class="wrap__filter d-flex justify-content-end align-items-center">
+                            
                         </div>
-                        <form action="">
-                            <div class="form-row">
-                                <div class="col-12 col-md-6 col-xl-3 form-group">
-                                    <label for="first-name">Họ</label>
-                                    <input class="form-control" type="text" id="first-name" placeholder="Nguyen">
-                                </div>
-                                <div class="col-12 col-md-6 col-xl-3 form-group">
-                                    <label for="name">Tên</label>
-                                    <input class="form-control" type="text" id="name" placeholder="Van A">
-                                </div>
-                                <div class="col-12 col-md-6 col-xl-3 form-group">
-                                    <label for="phone">Số điện thoại</label>
-                                    <input class="form-control" type="number" id="phone" placeholder="0123456789">
-                                </div>
-                                <div class="col-12 col-md-6 col-xl-3 form-group group-sex">
-                                    <label for="">Giới tính</label>
-                                    <div class="d-flex align-items-center">
-                                        <div class="form-check mr-3">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                            <label class="form-check-label " for="gridRadios1">
-                                                Nam
-                                            </label>
-                                          </div>
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                            <label class="form-check-label" for="gridRadios2">
-                                                Nữ
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-4 col-xl-3 form-group">
-                                    <label for="birthday">Ngày sinh</label>
-                                    <input class="form-control" type="date" id="birthday" placeholder="">
-                                </div>
-                                <div class="col-12 col-md-8 col-xl-6 form-group">
-                                    <label for="Email">Email</label>
-                                    <input class="form-control" type="text" id="Email" placeholder="Nguyenvana@gmail.com">
-                                </div>
-
-                                <div class="col-12  col-xl-9">
-                                    <div class="email-resend">
-                                        <span>Email của bạn chưa được xác nhận. Vui lòng kiểm tra hộp thư đến của bạn</span>
-                                        <button class="email-resend-submit">Gửi lại</button>
-                                    </div>
-                                </div>
-
-                                <div class="col-12">
-                                    <hr>
-                                </div>
-                                <div class="col-12 mb-2">
-                                    <h3 class="form-location d-flex align-items-center">
-                                        <img src="./assets/image/location-outline.svg" alt="">
-                                        <span>Địa chỉ</span>
-                                    </h3>
-                                </div>
-                                <div class="col-12 col-md-6 col-xl-4 form-group">
-                                    <label for="street">Đường</label>
-                                    <input class="form-control" type="text" id="street" placeholder="">
-                                </div>
-                                <div class="col-12 col-md-6 col-xl-4 form-group">
-                                    <label for="district">Quận/ Huyện</label>
-                                    <input class="form-control" type="text" id="district" placeholder="">
-                                </div>
-                                <div class="col-12 col-md-6 col-xl-4 form-group">
-                                    <label for="conscious">Tỉnh thành</label>
-                                    <input class="form-control" type="text" id="conscious" placeholder="">
-                                </div>
-
-                                <div class="col-12 mt-4 save-cancel d-flex align-items-center">
-                                    <button type="submit" class="btn-ct save">Lưu thay đổi</button>
-                                    <button type="button" class="btn cancel">Huỷ</button>
-                                </div>
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
