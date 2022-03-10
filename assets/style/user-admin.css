@@ -85,6 +85,7 @@
 
 .form-group {
     margin-bottom: 18px;
+    position: relative;
 }
 
 .form-group label {
@@ -293,6 +294,94 @@ hr {
     color:#4A4A4A;
 }
 
+.form-group__filter img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 11px;
+    width: 18px;
+    cursor: pointer;
+}
+
+.form-group__filter input,
+.form-group__filter select {
+    font-size: 14px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid#E3E3E3;
+    min-width: 180px;
+}
+
+.project-like__item {
+    padding: 12px 0px;
+}
+
+.project-like__title {
+    font-size: 16px;
+    font-weight: 500;
+    color:#4A4A4A;
+    margin-bottom: 12px;
+}
+
+.project-like__inner .thumb {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.project-like__inner .thumb img {
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.desc__left {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.project-like__inner .desc {
+    flex: 1;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.desc .location img {
+    max-width: 14px;
+    margin-right: 3px;
+}
+
+.desc .location p {
+    flex: 1;
+    font-size: 14px;
+    color: #4A4A4A;
+}
+
+.desc span.price {
+    color: var(--cl-highlight);
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 3px;
+}
+
+.desc__bt svg {
+    width: auto;
+}
+
+.desc__bt span {
+    font-size: 14px;
+    color: #4A4A4A;
+    padding-left: 6px;
+    padding-top: 2px;
+}
+
+.desc__bt {
+    position: relative;
+    z-index: 2;
+}
+
+.desc__bt:hover span {
+    color: #3480FF;
+}
 
 
 /* responsive */
@@ -331,5 +420,21 @@ hr {
     .notifi__item {
         padding-bottom: 15px;
         margin-bottom: 15px;
+    }
+    .project-like__inner .thumb {
+        margin-right: 10px;
+    }
+    .desc__bt span {
+        display: none;
+    }
+    .project-like__inner .thumb {
+        width: 90px;
+    }
+    .project-like__inner .thumb img {
+        height: 68px;
+    }
+    .desc span.price {
+        font-size: 22px;
+        padding-top: 0px;
     }
 }
